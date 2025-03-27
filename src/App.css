@@ -1,10 +1,25 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
 .header {
-    font-size: 500px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
 }
 
 .button {
-    size: 30px;
+    size: 40px;
     color: yellowgreen;
+}
+
+.text {
+    size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
 }
