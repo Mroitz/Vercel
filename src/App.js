@@ -6,7 +6,6 @@ function App () {
     <div className='App'>
       <h1 className='header'>mucho gusto</h1>
       <div>un te o un cafe?</div>
-      <button onClick={alert('hurensohn')}></button>
       <Button></Button>
     </div>
   )
