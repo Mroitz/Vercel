@@ -1,11 +1,13 @@
 import './App.css'
+import Button from './button'
 
 function App() {
   return (
     <div className='App'>
       <h1 className="header">mucho gusto</h1>
       <div>un te o un cafe?</div>
-      <button className="button" onClick={alert('hurensohn')}></button>
+      <button onClick={alert('hurensohn')}></button>
+      <Button></Button>
     </div>
   )
 }
